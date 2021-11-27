@@ -195,16 +195,13 @@
 					from: window['userAccountNumber']
 				}).once('receipt', function(receipt){
 					console.log(Object.keys(receipt));
-					alert('clear!');
 				})
 			}
 		
 		}
 		
-		function sendAPIdataToSmartContract(){
-			
+		function sendAPIdataToSmartContract(){			
 			getWallet();
-			//Do more
 		}
 		
 	</script>
